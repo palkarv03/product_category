@@ -1,0 +1,30 @@
+{
+	"name": "product_category",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=production node app",
+		"dev": "cross-env NODE_ENV=development nodemon app"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/palkarv03/product_category.git"
+	},
+	"author": "Vishal",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/palkarv03/product_category/issues"
+	},
+	"homepage": "https://github.com/palkarv03/product_category#readme",
+	"dependencies": {
+		"@hapi/joi": "^17.1.1",
+		"connect-mongo": "^3.2.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-handlebars": "^5.2.0",
+		"mongoose": "^5.11.7",
+		"morgan": "^1.10.0",
+		"node-datetime": "^2.1.2"
+	}
+}
